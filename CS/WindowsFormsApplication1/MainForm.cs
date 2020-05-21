@@ -15,7 +15,7 @@ namespace WindowsFormsApplication1 {
         }
 
         private void MainForm_Load(object sender, System.EventArgs e) {
-            pdfViewer1.LoadDocument(@"..\..\document.pdf");
+            pdfViewer1.LoadDocument(@"..\..\TextExtraction.pdf");
             repositoryItemButtonEdit3.ButtonClick += repositoryItemButtonEdit3_ButtonClick;
         }
 

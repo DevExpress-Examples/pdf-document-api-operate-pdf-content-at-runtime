@@ -17,7 +17,7 @@ Namespace WindowsFormsApplication1
         End Sub
 
         Private Sub MainForm_Load(ByVal sender As Object, ByVal e As System.EventArgs) Handles MyBase.Load
-            pdfViewer1.LoadDocument("..\..\document.pdf")
+            pdfViewer1.LoadDocument("..\..\TextExtraction.pdf")
             AddHandler repositoryItemButtonEdit3.ButtonClick, AddressOf repositoryItemButtonEdit3_ButtonClick
         End Sub
 
