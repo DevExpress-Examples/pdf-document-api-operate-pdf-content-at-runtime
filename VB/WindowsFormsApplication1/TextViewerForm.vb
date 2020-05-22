@@ -9,17 +9,15 @@ Imports System.Threading.Tasks
 Imports System.Windows.Forms
 
 Namespace WindowsFormsApplication1
-	Partial Public Class TextViewerForm
-		Inherits Form
+    Partial Public Class TextViewerForm
+        Inherits Form
 
-		Public Sub New()
-			InitializeComponent()
-		End Sub
+        Public Sub New()
+            InitializeComponent()
+        End Sub
 
-		Private Sub button1_Click(ByVal sender As Object, ByVal e As EventArgs) Handles button1.Click
-			If Not Me.button1.IsHandleCreated Then Return
-
-			Me.Close()
-		End Sub
-	End Class
+        Private Sub button1_Click(ByVal sender As Object, ByVal e As EventArgs) Handles button1.Click
+            Me.Close()
+        End Sub
+    End Class
 End Namespace
