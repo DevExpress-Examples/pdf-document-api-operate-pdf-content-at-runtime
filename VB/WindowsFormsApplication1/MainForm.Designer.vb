@@ -1,5 +1,7 @@
-﻿Namespace WindowsFormsApplication1
-    Partial Public Class MainForm
+Namespace WindowsFormsApplication1
+
+    Partial Class MainForm
+
         ''' <summary>
         ''' Required designer variable.
         ''' </summary>
@@ -10,21 +12,21 @@
         ''' </summary>
         ''' <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
         Protected Overrides Sub Dispose(ByVal disposing As Boolean)
-            If disposing AndAlso (components IsNot Nothing) Then
-                components.Dispose()
+            If disposing AndAlso (Me.components IsNot Nothing) Then
+                Me.components.Dispose()
             End If
+
             MyBase.Dispose(disposing)
         End Sub
 
-        #Region "Windows Form Designer generated code"
-
+#Region "Windows Form Designer generated code"
         ''' <summary>
         ''' Required method for Designer support - do not modify
         ''' the contents of this method with the code editor.
         ''' </summary>
         Private Sub InitializeComponent()
             Me.components = New System.ComponentModel.Container()
-            Dim serializableAppearanceObject1 As New DevExpress.Utils.SerializableAppearanceObject()
+            Dim serializableAppearanceObject1 As DevExpress.Utils.SerializableAppearanceObject = New DevExpress.Utils.SerializableAppearanceObject()
             Me.pdfViewer1 = New DevExpress.XtraPdfViewer.PdfViewer()
             Me.ribbonControl1 = New DevExpress.XtraBars.Ribbon.RibbonControl()
             Me.pdfFileOpenBarItem1 = New DevExpress.XtraPdfViewer.Bars.PdfFileOpenBarItem()
@@ -63,14 +65,14 @@
             Me.repositoryItemTextEdit2 = New DevExpress.XtraEditors.Repository.RepositoryItemTextEdit()
             Me.repositoryItemToggleSwitch1 = New DevExpress.XtraEditors.Repository.RepositoryItemToggleSwitch()
             Me.pdfBarController1 = New DevExpress.XtraPdfViewer.Bars.PdfBarController()
-            DirectCast(Me.ribbonControl1, System.ComponentModel.ISupportInitialize).BeginInit()
-            DirectCast(Me.repositoryItemButtonEdit3, System.ComponentModel.ISupportInitialize).BeginInit()
-            DirectCast(Me.repositoryItemTextEdit1, System.ComponentModel.ISupportInitialize).BeginInit()
-            DirectCast(Me.repositoryItemButtonEdit1, System.ComponentModel.ISupportInitialize).BeginInit()
-            DirectCast(Me.repositoryItemButtonEdit2, System.ComponentModel.ISupportInitialize).BeginInit()
-            DirectCast(Me.repositoryItemTextEdit2, System.ComponentModel.ISupportInitialize).BeginInit()
-            DirectCast(Me.repositoryItemToggleSwitch1, System.ComponentModel.ISupportInitialize).BeginInit()
-            DirectCast(Me.pdfBarController1, System.ComponentModel.ISupportInitialize).BeginInit()
+            CType((Me.ribbonControl1), System.ComponentModel.ISupportInitialize).BeginInit()
+            CType((Me.repositoryItemButtonEdit3), System.ComponentModel.ISupportInitialize).BeginInit()
+            CType((Me.repositoryItemTextEdit1), System.ComponentModel.ISupportInitialize).BeginInit()
+            CType((Me.repositoryItemButtonEdit1), System.ComponentModel.ISupportInitialize).BeginInit()
+            CType((Me.repositoryItemButtonEdit2), System.ComponentModel.ISupportInitialize).BeginInit()
+            CType((Me.repositoryItemTextEdit2), System.ComponentModel.ISupportInitialize).BeginInit()
+            CType((Me.repositoryItemToggleSwitch1), System.ComponentModel.ISupportInitialize).BeginInit()
+            CType((Me.pdfBarController1), System.ComponentModel.ISupportInitialize).BeginInit()
             Me.SuspendLayout()
             ' 
             ' pdfViewer1
@@ -84,12 +86,12 @@
             ' ribbonControl1
             ' 
             Me.ribbonControl1.ExpandCollapseItem.Id = 0
-            Me.ribbonControl1.Items.AddRange(New DevExpress.XtraBars.BarItem() { Me.ribbonControl1.ExpandCollapseItem, Me.pdfFileOpenBarItem1, Me.pdfFilePrintBarItem1, Me.pdfPreviousPageBarItem1, Me.pdfNextPageBarItem1, Me.pdfFindTextBarItem1, Me.pdfZoomOutBarItem1, Me.pdfZoomInBarItem1, Me.pdfExactZoomListBarSubItem1, Me.pdfZoom10CheckItem1, Me.pdfZoom25CheckItem1, Me.pdfZoom50CheckItem1, Me.pdfZoom75CheckItem1, Me.pdfZoom100CheckItem1, Me.pdfZoom125CheckItem1, Me.pdfZoom150CheckItem1, Me.pdfZoom200CheckItem1, Me.pdfZoom400CheckItem1, Me.pdfZoom500CheckItem1, Me.pdfSetActualSizeZoomModeCheckItem1, Me.pdfSetPageLevelZoomModeCheckItem1, Me.pdfSetFitWidthZoomModeCheckItem1, Me.pdfSetFitVisibleZoomModeCheckItem1, Me.barButtonItem1, Me.barEditItem2})
+            Me.ribbonControl1.Items.AddRange(New DevExpress.XtraBars.BarItem() {Me.ribbonControl1.ExpandCollapseItem, Me.pdfFileOpenBarItem1, Me.pdfFilePrintBarItem1, Me.pdfPreviousPageBarItem1, Me.pdfNextPageBarItem1, Me.pdfFindTextBarItem1, Me.pdfZoomOutBarItem1, Me.pdfZoomInBarItem1, Me.pdfExactZoomListBarSubItem1, Me.pdfZoom10CheckItem1, Me.pdfZoom25CheckItem1, Me.pdfZoom50CheckItem1, Me.pdfZoom75CheckItem1, Me.pdfZoom100CheckItem1, Me.pdfZoom125CheckItem1, Me.pdfZoom150CheckItem1, Me.pdfZoom200CheckItem1, Me.pdfZoom400CheckItem1, Me.pdfZoom500CheckItem1, Me.pdfSetActualSizeZoomModeCheckItem1, Me.pdfSetPageLevelZoomModeCheckItem1, Me.pdfSetFitWidthZoomModeCheckItem1, Me.pdfSetFitVisibleZoomModeCheckItem1, Me.barButtonItem1, Me.barEditItem2})
             Me.ribbonControl1.Location = New System.Drawing.Point(0, 0)
             Me.ribbonControl1.MaxItemId = 32
             Me.ribbonControl1.Name = "ribbonControl1"
-            Me.ribbonControl1.Pages.AddRange(New DevExpress.XtraBars.Ribbon.RibbonPage() { Me.pdfRibbonPage1})
-            Me.ribbonControl1.RepositoryItems.AddRange(New DevExpress.XtraEditors.Repository.RepositoryItem() { Me.repositoryItemTextEdit1, Me.repositoryItemButtonEdit1, Me.repositoryItemButtonEdit2, Me.repositoryItemTextEdit2, Me.repositoryItemToggleSwitch1, Me.repositoryItemButtonEdit3})
+            Me.ribbonControl1.Pages.AddRange(New DevExpress.XtraBars.Ribbon.RibbonPage() {Me.pdfRibbonPage1})
+            Me.ribbonControl1.RepositoryItems.AddRange(New DevExpress.XtraEditors.Repository.RepositoryItem() {Me.repositoryItemTextEdit1, Me.repositoryItemButtonEdit1, Me.repositoryItemButtonEdit2, Me.repositoryItemTextEdit2, Me.repositoryItemToggleSwitch1, Me.repositoryItemButtonEdit3})
             Me.ribbonControl1.RibbonStyle = DevExpress.XtraBars.Ribbon.RibbonControlStyle.Office2010
             Me.ribbonControl1.Size = New System.Drawing.Size(1121, 144)
             Me.ribbonControl1.ToolbarLocation = DevExpress.XtraBars.Ribbon.RibbonQuickAccessToolbarLocation.Above
@@ -137,22 +139,7 @@
             ' pdfExactZoomListBarSubItem1
             ' 
             Me.pdfExactZoomListBarSubItem1.Id = 8
-            Me.pdfExactZoomListBarSubItem1.LinksPersistInfo.AddRange(New DevExpress.XtraBars.LinkPersistInfo() { _
-                New DevExpress.XtraBars.LinkPersistInfo(Me.pdfZoom10CheckItem1, True), _
-                New DevExpress.XtraBars.LinkPersistInfo(Me.pdfZoom25CheckItem1), _
-                New DevExpress.XtraBars.LinkPersistInfo(Me.pdfZoom50CheckItem1), _
-                New DevExpress.XtraBars.LinkPersistInfo(Me.pdfZoom75CheckItem1), _
-                New DevExpress.XtraBars.LinkPersistInfo(Me.pdfZoom100CheckItem1), _
-                New DevExpress.XtraBars.LinkPersistInfo(Me.pdfZoom125CheckItem1), _
-                New DevExpress.XtraBars.LinkPersistInfo(Me.pdfZoom150CheckItem1), _
-                New DevExpress.XtraBars.LinkPersistInfo(Me.pdfZoom200CheckItem1), _
-                New DevExpress.XtraBars.LinkPersistInfo(Me.pdfZoom400CheckItem1), _
-                New DevExpress.XtraBars.LinkPersistInfo(Me.pdfZoom500CheckItem1), _
-                New DevExpress.XtraBars.LinkPersistInfo(Me.pdfSetActualSizeZoomModeCheckItem1, True), _
-                New DevExpress.XtraBars.LinkPersistInfo(Me.pdfSetPageLevelZoomModeCheckItem1), _
-                New DevExpress.XtraBars.LinkPersistInfo(Me.pdfSetFitWidthZoomModeCheckItem1), _
-                New DevExpress.XtraBars.LinkPersistInfo(Me.pdfSetFitVisibleZoomModeCheckItem1) _
-            })
+            Me.pdfExactZoomListBarSubItem1.LinksPersistInfo.AddRange(New DevExpress.XtraBars.LinkPersistInfo() {New DevExpress.XtraBars.LinkPersistInfo(Me.pdfZoom10CheckItem1, True), New DevExpress.XtraBars.LinkPersistInfo(Me.pdfZoom25CheckItem1), New DevExpress.XtraBars.LinkPersistInfo(Me.pdfZoom50CheckItem1), New DevExpress.XtraBars.LinkPersistInfo(Me.pdfZoom75CheckItem1), New DevExpress.XtraBars.LinkPersistInfo(Me.pdfZoom100CheckItem1), New DevExpress.XtraBars.LinkPersistInfo(Me.pdfZoom125CheckItem1), New DevExpress.XtraBars.LinkPersistInfo(Me.pdfZoom150CheckItem1), New DevExpress.XtraBars.LinkPersistInfo(Me.pdfZoom200CheckItem1), New DevExpress.XtraBars.LinkPersistInfo(Me.pdfZoom400CheckItem1), New DevExpress.XtraBars.LinkPersistInfo(Me.pdfZoom500CheckItem1), New DevExpress.XtraBars.LinkPersistInfo(Me.pdfSetActualSizeZoomModeCheckItem1, True), New DevExpress.XtraBars.LinkPersistInfo(Me.pdfSetPageLevelZoomModeCheckItem1), New DevExpress.XtraBars.LinkPersistInfo(Me.pdfSetFitWidthZoomModeCheckItem1), New DevExpress.XtraBars.LinkPersistInfo(Me.pdfSetFitVisibleZoomModeCheckItem1)})
             Me.pdfExactZoomListBarSubItem1.Name = "pdfExactZoomListBarSubItem1"
             Me.pdfExactZoomListBarSubItem1.PaintStyle = DevExpress.XtraBars.BarItemPaintStyle.CaptionInMenu
             ' 
@@ -232,6 +219,7 @@
             Me.barButtonItem1.CategoryGuid = New System.Guid("6ffddb2b-9015-4d97-a4c1-91613e0ef537")
             Me.barButtonItem1.Id = 23
             Me.barButtonItem1.Name = "barButtonItem1"
+            AddHandler Me.barButtonItem1.ItemClick, New DevExpress.XtraBars.ItemClickEventHandler(AddressOf Me.barButtonItem1_ItemClick)
             ' 
             ' barEditItem2
             ' 
@@ -245,12 +233,12 @@
             ' repositoryItemButtonEdit3
             ' 
             Me.repositoryItemButtonEdit3.AutoHeight = False
-            Me.repositoryItemButtonEdit3.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() { New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Glyph, "OK", -1, True, True, False, DevExpress.XtraEditors.ImageLocation.MiddleCenter, Nothing, New DevExpress.Utils.KeyShortcut(System.Windows.Forms.Keys.None), serializableAppearanceObject1, "", Nothing, Nothing, True)})
+            Me.repositoryItemButtonEdit3.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Glyph, "OK", -1, True, True, False, DevExpress.XtraEditors.ImageLocation.MiddleCenter, Nothing, New DevExpress.Utils.KeyShortcut(System.Windows.Forms.Keys.None), serializableAppearanceObject1, "", Nothing, Nothing, True)})
             Me.repositoryItemButtonEdit3.Name = "repositoryItemButtonEdit3"
             ' 
             ' pdfRibbonPage1
             ' 
-            Me.pdfRibbonPage1.Groups.AddRange(New DevExpress.XtraBars.Ribbon.RibbonPageGroup() { Me.pdfFileRibbonPageGroup1, Me.pdfNavigationRibbonPageGroup1, Me.pdfZoomRibbonPageGroup1, Me.ribbonPageGroup1})
+            Me.pdfRibbonPage1.Groups.AddRange(New DevExpress.XtraBars.Ribbon.RibbonPageGroup() {Me.pdfFileRibbonPageGroup1, Me.pdfNavigationRibbonPageGroup1, Me.pdfZoomRibbonPageGroup1, Me.ribbonPageGroup1})
             Me.pdfRibbonPage1.Name = "pdfRibbonPage1"
             ' 
             ' pdfFileRibbonPageGroup1
@@ -288,13 +276,13 @@
             ' repositoryItemButtonEdit1
             ' 
             Me.repositoryItemButtonEdit1.AutoHeight = False
-            Me.repositoryItemButtonEdit1.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() { New DevExpress.XtraEditors.Controls.EditorButton()})
+            Me.repositoryItemButtonEdit1.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton()})
             Me.repositoryItemButtonEdit1.Name = "repositoryItemButtonEdit1"
             ' 
             ' repositoryItemButtonEdit2
             ' 
             Me.repositoryItemButtonEdit2.AutoHeight = False
-            Me.repositoryItemButtonEdit2.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() { New DevExpress.XtraEditors.Controls.EditorButton()})
+            Me.repositoryItemButtonEdit2.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton()})
             Me.repositoryItemButtonEdit2.Name = "repositoryItemButtonEdit2"
             ' 
             ' repositoryItemTextEdit2
@@ -345,58 +333,93 @@
             Me.Name = "MainForm"
             Me.Ribbon = Me.ribbonControl1
             Me.Text = "Main Form"
-            DirectCast(Me.ribbonControl1, System.ComponentModel.ISupportInitialize).EndInit()
-            DirectCast(Me.repositoryItemButtonEdit3, System.ComponentModel.ISupportInitialize).EndInit()
-            DirectCast(Me.repositoryItemTextEdit1, System.ComponentModel.ISupportInitialize).EndInit()
-            DirectCast(Me.repositoryItemButtonEdit1, System.ComponentModel.ISupportInitialize).EndInit()
-            DirectCast(Me.repositoryItemButtonEdit2, System.ComponentModel.ISupportInitialize).EndInit()
-            DirectCast(Me.repositoryItemTextEdit2, System.ComponentModel.ISupportInitialize).EndInit()
-            DirectCast(Me.repositoryItemToggleSwitch1, System.ComponentModel.ISupportInitialize).EndInit()
-            DirectCast(Me.pdfBarController1, System.ComponentModel.ISupportInitialize).EndInit()
+            AddHandler Me.Load, New System.EventHandler(AddressOf Me.MainForm_Load)
+            CType((Me.ribbonControl1), System.ComponentModel.ISupportInitialize).EndInit()
+            CType((Me.repositoryItemButtonEdit3), System.ComponentModel.ISupportInitialize).EndInit()
+            CType((Me.repositoryItemTextEdit1), System.ComponentModel.ISupportInitialize).EndInit()
+            CType((Me.repositoryItemButtonEdit1), System.ComponentModel.ISupportInitialize).EndInit()
+            CType((Me.repositoryItemButtonEdit2), System.ComponentModel.ISupportInitialize).EndInit()
+            CType((Me.repositoryItemTextEdit2), System.ComponentModel.ISupportInitialize).EndInit()
+            CType((Me.repositoryItemToggleSwitch1), System.ComponentModel.ISupportInitialize).EndInit()
+            CType((Me.pdfBarController1), System.ComponentModel.ISupportInitialize).EndInit()
             Me.ResumeLayout(False)
-
         End Sub
 
-        #End Region
-
+#End Region
         Private pdfViewer1 As DevExpress.XtraPdfViewer.PdfViewer
+
         Private ribbonControl1 As DevExpress.XtraBars.Ribbon.RibbonControl
+
         Private pdfFileOpenBarItem1 As DevExpress.XtraPdfViewer.Bars.PdfFileOpenBarItem
+
         Private pdfFilePrintBarItem1 As DevExpress.XtraPdfViewer.Bars.PdfFilePrintBarItem
+
         Private pdfPreviousPageBarItem1 As DevExpress.XtraPdfViewer.Bars.PdfPreviousPageBarItem
+
         Private pdfNextPageBarItem1 As DevExpress.XtraPdfViewer.Bars.PdfNextPageBarItem
+
         Private pdfFindTextBarItem1 As DevExpress.XtraPdfViewer.Bars.PdfFindTextBarItem
+
         Private pdfZoomOutBarItem1 As DevExpress.XtraPdfViewer.Bars.PdfZoomOutBarItem
+
         Private pdfZoomInBarItem1 As DevExpress.XtraPdfViewer.Bars.PdfZoomInBarItem
+
         Private pdfExactZoomListBarSubItem1 As DevExpress.XtraPdfViewer.Bars.PdfExactZoomListBarSubItem
+
         Private pdfZoom10CheckItem1 As DevExpress.XtraPdfViewer.Bars.PdfZoom10CheckItem
+
         Private pdfZoom25CheckItem1 As DevExpress.XtraPdfViewer.Bars.PdfZoom25CheckItem
+
         Private pdfZoom50CheckItem1 As DevExpress.XtraPdfViewer.Bars.PdfZoom50CheckItem
+
         Private pdfZoom75CheckItem1 As DevExpress.XtraPdfViewer.Bars.PdfZoom75CheckItem
+
         Private pdfZoom100CheckItem1 As DevExpress.XtraPdfViewer.Bars.PdfZoom100CheckItem
+
         Private pdfZoom125CheckItem1 As DevExpress.XtraPdfViewer.Bars.PdfZoom125CheckItem
+
         Private pdfZoom150CheckItem1 As DevExpress.XtraPdfViewer.Bars.PdfZoom150CheckItem
+
         Private pdfZoom200CheckItem1 As DevExpress.XtraPdfViewer.Bars.PdfZoom200CheckItem
+
         Private pdfZoom400CheckItem1 As DevExpress.XtraPdfViewer.Bars.PdfZoom400CheckItem
+
         Private pdfZoom500CheckItem1 As DevExpress.XtraPdfViewer.Bars.PdfZoom500CheckItem
+
         Private pdfSetActualSizeZoomModeCheckItem1 As DevExpress.XtraPdfViewer.Bars.PdfSetActualSizeZoomModeCheckItem
+
         Private pdfSetPageLevelZoomModeCheckItem1 As DevExpress.XtraPdfViewer.Bars.PdfSetPageLevelZoomModeCheckItem
+
         Private pdfSetFitWidthZoomModeCheckItem1 As DevExpress.XtraPdfViewer.Bars.PdfSetFitWidthZoomModeCheckItem
+
         Private pdfSetFitVisibleZoomModeCheckItem1 As DevExpress.XtraPdfViewer.Bars.PdfSetFitVisibleZoomModeCheckItem
+
         Private pdfRibbonPage1 As DevExpress.XtraPdfViewer.Bars.PdfRibbonPage
+
         Private pdfFileRibbonPageGroup1 As DevExpress.XtraPdfViewer.Bars.PdfFileRibbonPageGroup
+
         Private pdfNavigationRibbonPageGroup1 As DevExpress.XtraPdfViewer.Bars.PdfNavigationRibbonPageGroup
+
         Private pdfZoomRibbonPageGroup1 As DevExpress.XtraPdfViewer.Bars.PdfZoomRibbonPageGroup
+
         Private pdfBarController1 As DevExpress.XtraPdfViewer.Bars.PdfBarController
-        Private WithEvents barButtonItem1 As DevExpress.XtraBars.BarButtonItem
+
+        Private barButtonItem1 As DevExpress.XtraBars.BarButtonItem
+
         Private repositoryItemButtonEdit2 As DevExpress.XtraEditors.Repository.RepositoryItemButtonEdit
+
         Private repositoryItemTextEdit2 As DevExpress.XtraEditors.Repository.RepositoryItemTextEdit
+
         Private ribbonPageGroup1 As DevExpress.XtraBars.Ribbon.RibbonPageGroup
+
         Private repositoryItemTextEdit1 As DevExpress.XtraEditors.Repository.RepositoryItemTextEdit
+
         Private repositoryItemButtonEdit1 As DevExpress.XtraEditors.Repository.RepositoryItemButtonEdit
+
         Private barEditItem2 As DevExpress.XtraBars.BarEditItem
+
         Private repositoryItemButtonEdit3 As DevExpress.XtraEditors.Repository.RepositoryItemButtonEdit
+
         Private repositoryItemToggleSwitch1 As DevExpress.XtraEditors.Repository.RepositoryItemToggleSwitch
     End Class
 End Namespace
-
