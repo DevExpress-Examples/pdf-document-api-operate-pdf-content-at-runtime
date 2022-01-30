@@ -10,7 +10,7 @@
 * [Program.cs](./CS/WindowsFormsApplication1/Program.cs) (VB: [Program.vb](./VB/WindowsFormsApplication1/Program.vb))
 * [TextViewerForm.cs](./CS/WindowsFormsApplication1/TextViewerForm.cs) (VB: [TextViewerForm.vb](./VB/WindowsFormsApplication1/TextViewerForm.vb))
 <!-- default file list end -->
-# How to operate a PDF content at runtime
+# PDF Document API - Operate a PDF Content at Runtime
 
 
 <p>This example demonstrates the capability of a <a href="https://docs.devexpress.com/OfficeFileAPI/16491/pdf-document-api"><u>PDF Document API</u></a> to operate a PDF content at runtime.</p>
