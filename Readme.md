@@ -4,21 +4,23 @@
 [![](https://img.shields.io/badge/📖_How_to_use_DevExpress_Examples-e9f6fc?style=flat-square)](https://docs.devexpress.com/GeneralInformation/403183)
 [![](https://img.shields.io/badge/💬_Leave_Feedback-feecdd?style=flat-square)](#does-this-example-address-your-development-requirementsobjectives)
 <!-- default badges end -->
-<!-- default file list -->
-*Files to look at*:
+
+# PDF Viewer for WinForms - Operate a PDF Content at Runtime
+
+This example shows how to integrate [PDF Document API](https://docs.devexpress.com/OfficeFileAPI/16491/pdf-document-api) into PDF Viewer for WinForms to operate PDF content at runtime.
+
+Click **File | Extract Text** on the **Ribbon** toolbar to extract the text of the currently opened PDF file.
+
+To count how many times a word appears in the document text, use the options available in the **Word Count** toolbar section.
+
+The Universal Subscription or an additional Office File API Subscription is required to use this example in production code. Please refer to the <a href="https://www.devexpress.com/Subscriptions/">DevExpress Subscription</a> page for pricing information.
+
+
+## Files to Review:
 
 * [MainForm.cs](./CS/WindowsFormsApplication1/MainForm.cs) (VB: [MainForm.vb](./VB/WindowsFormsApplication1/MainForm.vb))
 * [Program.cs](./CS/WindowsFormsApplication1/Program.cs) (VB: [Program.vb](./VB/WindowsFormsApplication1/Program.vb))
 * [TextViewerForm.cs](./CS/WindowsFormsApplication1/TextViewerForm.cs) (VB: [TextViewerForm.vb](./VB/WindowsFormsApplication1/TextViewerForm.vb))
-<!-- default file list end -->
-# PDF Document API - Operate a PDF Content at Runtime
-
-
-<p>This example demonstrates the capability of a <a href="https://docs.devexpress.com/OfficeFileAPI/16491/pdf-document-api"><u>PDF Document API</u></a> to operate a PDF content at runtime.</p>
-<p>To extract the text of the currently opened PDF file, click <strong>File | Extract Text</strong> on the <strong>Ribbon</strong> toolbar.</p>
-<p>To count how many times a word appears in the document text, use the options available in the <strong>Word Count</strong> toolbar section.<br><br>The Universal Subscription or an additional Office File API Subscription is required to use this example in production code. Please refer to the <a href="https://www.devexpress.com/Subscriptions/">DevExpress Subscription</a> page for pricing information.</p>
-
-<br/>
 
 
 <!-- feedback -->
